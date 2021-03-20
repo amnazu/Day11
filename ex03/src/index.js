@@ -17,6 +17,5 @@ function myArrayFunction(myPets) {
 
 
 console.log(myArrayFunction(myPetsArray));
-console.log(myArrayFunction(["Horse"]));
 
 module.exports = myArrayFunction;
