@@ -2,9 +2,14 @@ function splitArrayInGroups(arr, n) {
 
     var newArray = [...arr];
     var result = [];
+    var iteration = 0;
 
     while (newArray.length > 0) {
         result.push(newArray.splice(0, n));
+        iteration ++
+        if (iteration === n) {
+            break;
+        }
     }
     return result;
 }

@@ -5,7 +5,7 @@ function myMutation(arr) {
 
     for (i = 0; i < letters.length; i++) {
 
-        if (word.toLowerCase().includes(letters[i].toLowerCase() == false))
+        if (word.toLowerCase().includes(letters[i].toLowerCase()) == false)
 
             return false;
 
